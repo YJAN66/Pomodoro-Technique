@@ -1,9 +1,19 @@
 {
   "name": "pomodoro-timer",
   "version": "2.0.0",
-  "description": "🍅 桌面番茄钟 - 提升专注力",
+  "description": "🍅 桌面番茄钟 - 基于 Electron 的跨平台番茄工作法计时器",
   "main": "main.js",
-  "author": "Pomodoro Timer",
+  "author": "YJAN66",
+  "license": "MIT",
+  "homepage": "https://github.com/YJAN66/Pomodoro-Technique#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YJAN66/Pomodoro-Technique.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YJAN66/Pomodoro-Technique/issues"
+  },
+  "keywords": ["pomodoro", "timer", "electron", "productivity", "desktop-app"],
   "scripts": {
     "start": "node start.js",
     "dist": "electron-builder --win",
